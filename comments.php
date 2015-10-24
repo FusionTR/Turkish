@@ -1,4 +1,4 @@
-<?php
+<?php     
 $locale['c100'] = "Yorum";
 $locale['c101'] = "Henüz yorum yazılmamış.";
 $locale['c102'] = "Yorum yaz";

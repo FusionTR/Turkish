@@ -1,4 +1,4 @@
-<?php
+<?php                          
 //color selection for multiple droplists
 $locale['color_0'] = "Boş";
 $locale['color_1'] = "Buz Mavisi";
