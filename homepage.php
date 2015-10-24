@@ -10,6 +10,7 @@ $locale['submit_0001'] = '%s Makale';
 $locale['submit_0002'] = '%s İndirme';
 $locale['submit_0003'] = '%s Fotoğraf';
 $locale['submit_0004'] = '%s Site Linki';
+$locale['submit_0005'] = '%s Blog';
 
 // no content messages
 $locale['home_0050'] = "Görüntülenecek Haber Yok";

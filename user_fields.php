@@ -52,7 +52,6 @@ $locale['uf_106'] = "Temel Bilgiler";
 $locale['uf_107'] = "%s has no user information available.";
 $locale['uf_108'] = "Kullanıcı alanı bulunamadı.";
 
-
 // View User Groups
 $locale['u110'] = "Kullanıcı grubunu görüntüle";
 $locale['u111'] = "%u üye";
@@ -120,7 +119,8 @@ $locale['u161'] = "Sitemize giriş yapabilirsiniz.";
 $locale['u162'] = "Hesabınız kısa bir süre içerisinde yöneticilerimiz tarafından aktifleştirecek.";
 $locale['u163'] = "Profil başarı ile güncellendi.";
 $locale['u164'] = "Güncelleme başarısız";
-$locale['u165'] = "Üye kaydı başarısız";
+
+//$locale['u165'] = "Registration failed";
 $locale['u167'] = ", aşağıdaki hata(lar) meydana geldi:";
 $locale['u168'] = "Lütfen yeniden deneyin.";
 $locale['u169'] = "Profil güncellendi";
@@ -131,9 +131,8 @@ $locale['u173'] = "Üye yönetimine dön.";
 $locale['u174'] = "Başka bir üye ekle.";
 // Avatar upload
 $locale['u180'] = "Avatar boyutu izin verilen en yüksek boyuttan daha yüksek, avatar ".parsebytesize($fusion_get_settings['avatar_filesize'])." değerinden düşük olmalıdır..";
-$locale['u181'] = "Yüklenen avatar geçersiz bir formatta, jpg, png and gif formatlarına izin verilmektedir.";
-$locale['u182'] = "Avatar boyutu ".fusion_get_settings['avatar_width']."x".fusion_get_settings['avatar_height']." pikselden yüksek olmamalıdır.";
-$locale['u183'] = "Avatarınız yüklenemedi.";
+
+
 $locale['u184'] = "Maks. dosya boyutu: %s / Maks. boyut: %ux%u piksel";
 $locale['u185'] = "Avatar";
 $locale['u186'] = "Avatar yüklemek için gözat tuşuna basın";
@@ -157,5 +156,4 @@ Not: devam etmek için giriş yapmış olmanız lazım.\n
 Saygılarımızla,
 ".fusion_get_settings('siteusername')."
 ".fusion_get_settings('sitename');
-
 ?>

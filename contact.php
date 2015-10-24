@@ -3,7 +3,8 @@
 $locale['400'] = "İletişim Formu";
 $locale['401'] = "Bize erişmeniz için pek çok yol mevcut, 
 ".hide_email(fusion_get_settings('siteemail')).". adresine direkt email gönderebilirsiniz. Eğer üye iseniz
-<a href='messages.php?msg_send=1'>Özel mesaj</a>. ile bizle iletişim kurabilirsiniz. Alternatif olarak, aşağıdaki formu doldurarak bizimle email aracılığı ile iletişim kurabilirsiniz.";
+<a href='messages.php?msg_send=1'>Özel mesaj</a>. ile bizle iletişim kurabilirsiniz. 
+Alternatif olarak, aşağıdaki formu doldurarak bizimle email aracılığı ile iletişim kurabilirsiniz.";
 $locale['402'] = "İsim:";
 $locale['403'] = "E-Posta Adresi:";
 $locale['404'] = "Konu:";

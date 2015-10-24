@@ -161,8 +161,8 @@ $locale['global_094'] = " dışında ";
 $locale['global_100'] = "Giriş Yapın";
 $locale['global_101'] = "Giriş ID'si";
 $locale['global_101a'] = "Lütfen giriş ID'nizi yazın.";
-$locale['global_101b'] = "Enter Email";
-$locale['global_101c'] = "Enter Email or Username";
+$locale['global_101b'] = "E-posta Girin";
+$locale['global_101c'] = "E-posta veya Kullanıcı Adı Girin";
 $locale['global_102'] = "Parolanız";
 $locale['global_103'] = "Beni Hatırla";
 $locale['global_104'] = "Giriş";
@@ -227,7 +227,7 @@ $locale['global_171'] = "Tekil Ziyaretçi";
 $locale['global_172'] = "Sayfa oluşturulma süresi: %s saniye";
 $locale['global_173'] = "Sorgu";
 $locale['global_174'] = "Kullanılan Bellek";
-$locale['global_175'] = "Average: %s seconds";
+$locale['global_175'] = "Ortalama: %s saniye";
 // Admin Navigation
 $locale['global_180'] = "Yönetici Ana Sayfası";
 $locale['global_181'] = "Siteye Geri Dön";
@@ -299,7 +299,7 @@ Saygılarımızla,\n
 ".fusion_get_settings('siteusername');
 // Function parsebytesize()
 $locale['global_460'] = "Boş";
-$locale['global_461'] = "Bit";
+$locale['global_461'] = "Byte";
 $locale['global_462'] = "KB";
 $locale['global_463'] = "MB";
 $locale['global_464'] = "GB";
@@ -352,8 +352,8 @@ $locale['go'] = 'Git';
 $locale['cancel'] = 'İptal';
 $locale['move_up'] = "Üste Git";
 $locale['move_down'] = "Aşağı Git";
-$locale['load_more'] = "Load more Items";
-$locale['load_end'] = "Load from Beginning";
+$locale['load_more'] = "Daha fazla Öğe yükle";
+$locale['load_end'] = "Başlangıçtan itibaren Yükle";
 // Action
 $locale['add'] = 'Ekle';
 $locale['save'] = 'Kaydet';
@@ -408,7 +408,7 @@ $locale['version'] = 'Sürüm ';
 $locale['browse'] = 'Gözat ...';
 $locale['close'] = 'Kapat';
 $locale['nopreview'] = 'Önizlenecek bir şey yok.';
-$locale['mark_as'] = "Mark As";
+$locale['mark_as'] = "İşaretle";
 //Alignment
 $locale['left'] = "Sol";
 $locale['center'] = "Merkez";

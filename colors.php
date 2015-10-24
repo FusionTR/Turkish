@@ -136,7 +136,6 @@ $locale['color_132'] = "Beyaz";
 $locale['color_133'] = "Duman Beyazı";
 $locale['color_134'] = "Sarı";
 $locale['color_135'] = "Yeşilimsi Sarı";
-// Merged from HTML buttons
 $locale['color_136'] = "Koyu Turuncu";
 $locale['color_137'] = "Koyu Zeytin";
 $locale['color_138'] = "Koyu Yeşil";

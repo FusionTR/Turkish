@@ -21,9 +21,10 @@ $locale['417'] = "Mesaj gönderenleri alfabetik olarak sırala:";
 $locale['418'] = "Hepsi";
 $locale['419'] = "Özel Mesajınız Yok.";
 $locale['420'] = "Özel Mesaj Gönder";
+$locale['420a'] = "Alıcı";
 $locale['421'] = "Kime";
 $locale['422'] = "Mesajınız";
-$locale['422a'] = "Orjinal Mesaj";
+//$locale['422a'] = "Orijinal Mesaj";
 $locale['423'] = "BB Kodu";
 $locale['424'] = "İfadeler";
 $locale['425'] = "Tercihler";
@@ -37,15 +38,19 @@ $locale['432'] = "Kapat";
 $locale['433'] = "Cevapla";
 $locale['434'] = "Herkese Gönder";
 $locale['435'] = "Vazgeç";
-$locale['436'] = "Cevabı Önizle";
+//$locale['436'] = "Cevabı Önizle";
 $locale['437'] = "Gönder";
-$locale['438'] = "Mesajı Önizle";
+//$locale['438'] = "Mesajı Önizle";
 $locale['439'] = "Cevapla";
 $locale['440'] = "(kabul edilen %s)";
 $locale['441'] = "Site sahibi olarak yaz";
 $locale['442'] = "Kullanıcı Seviyeleri";
 $locale['443'] = "Gruplar";
 $locale['444'] = "Herkes ile konuşma";
+$locale['445'] = "Yapılandırma Kaydedildi";
+$locale['446'] = "Okunmamış Mesajlar";
+$locale['447'] = "Okunmuş Mesajlar";
+$locale['448'] = "Ayarlar";
 
 // Search Options
 $locale['450'] = "Arama ve Tür Tercihleri";
@@ -68,7 +73,7 @@ $locale['466'] = 'Seçilmemiş';
 $locale['467'] = 'Hiçbir Konuşma Seçilmemiş';
 $locale['468'] = 'Şununla yeni bir konuşma başlatın %s';
 $locale['469'] = 'Cevapla %s';
-$locale['470'] = 'Arama Filtresi (Fonksiyonel değil)';
+
 $locale['471'] = "Mesaj Yok";
 
 // Error Messages
@@ -81,6 +86,15 @@ $locale['485'] = "Lütfen en az bir mesaj seçiniz";
 $locale['486'] = "Bütün alanları tamamlamalısınız: Konu ve Mesaj";
 $locale['487'] = "Arka arkaya mesaj gönderiyorsunuz! Lütfen sıradaki mesajınızı göndermek için %s saniye bekleyin.";
 $locale['488'] = "Bilinmeyen bir hata mesajı oluştu., ";
+$locale['489'] = "Mesaj Arşivlendi";
+$locale['489b'] = "Mesaj Arşivden Çıkarıldı";
+$locale['490'] = "Mesaj Silindi";
+$locale['491'] = "Mesaj Gönderildi";
+$locale['492'] = "Bu grupta hiç kullanıcı yok.";
+$locale['493'] = "Tümünü Okundu Olarak İşaretle";
+$locale['494'] = "Okundu olarak işaretle";
+$locale['495'] = "Okunmamış Olarak İşaretle";
+$locale['496'] = "Tümünü Okunmamış Olarak İşaretle";
 
 // Tooltips
 $locale['500'] = "Buraya Tıklayarak Yeni Mesaj Yazabilirsiniz";
@@ -100,6 +114,11 @@ $locale['513'] = "Buraya tıklayarak bu mesayı okuyabilirsiniz";
 $locale['514'] = "Buraya tıklayarak bu mesajı görmezden gelebilirsiniz";
 $locale['515'] = "Buraya Tıklayarak Seçilen Mesajı Silebilirsiniz";
 $locale['516'] = "Buraya Tıklayarak Özel Mesaj Ayarlarınızı Değiştirebilirsiniz";
+$locale['520'] = "Varsayılan";
+$locale['521'] = "Bana bildirim yapmayın";
+$locale['522'] = "Evet, beni bilgilendir";
+$locale['523'] = "Kayıt Tutma";
+$locale['524'] = "Evet, Gönderilen Mesajları Tut";
 
 // Options
 $locale['620'] = "Tercihler";
