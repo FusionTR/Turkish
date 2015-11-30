@@ -22,5 +22,4 @@ $locale['417'] = "BB Kodları Çıktısı Testi";
 $locale['418'] = "Bu testte yüz ifadelerini gizle";
 $locale['418a'] = "Test Mesajı";
 $locale['418b'] = "Lütfen BB kodları için bir mesaj girin.";
-
 ?>
