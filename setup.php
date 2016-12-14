@@ -7,7 +7,7 @@ $locale['setup_0003'] = "Kurulum Klavuzu Sunucunuz Üzerine PHP-Fusion İçerik 
 $locale['setup_0005'] = "  PHP-Fusion <a href='https://php-fusion.co.uk/license/'>Hükümleri ve Kullanım Koşullarını</a> Okudum ve Kabul Ediyorum.";
 $locale['setup_0006'] = "PHP-Fusion 9.02, Kurulabilmesi için Enaz PHP 5.5.9 Gerektirir. Daha Fazla Bilgi için <a href=\"https://www.php-fusion.co.uk/requirements\"> Sistem Gereksinimleri </a> Sayfasına Bakınız.";
 $locale['setup_0007'] = "OPcache Kurulu Olan Sistemlerin <a href=\"http://php.net/manual/en/opcache.configuration.php#ini.opcache.save-comments\">opcache.save_comments</a> Özelliğinin Etkinleştirilmiş Olması Gerekir.";
-$locale['setup_5000'] = "PHP-Fusion'u Kullanmak İçin, PHP-Fusion'ın Şartlarını Kontrol Etmeniz ve Kabul Eetmeniz Gerekiyor</a>.";
+$locale['setup_5000'] = "PHP-Fusion'u Kullanmak İçin, PHP-Fusion'ın Şartlarını Kontrol Etmeniz ve Kabul Etmeniz Gerekiyor</a>.";
 $locale['setup_0010'] = "Mevcut Yapı Sürümü - ";
 $locale['setup_0011'] = "tr";
 $locale['setup_0012'] = "utf-8";
