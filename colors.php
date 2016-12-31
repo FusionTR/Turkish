@@ -4,9 +4,9 @@
 | PHP-Fusion v9.02 RC5 Türkçe Dil Dosyası
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
-| Filename: setup.php
+| Filename: colors.php
 | Author: Ali SAKA
-| Web: http://www.fusiontr.com
+| Web: http://www.fusiontr.com  
 +--------------------------------------------------------*/                         
 //color selection for multiple droplists
 $locale['color_0'] = "Boş";

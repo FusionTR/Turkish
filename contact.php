@@ -1,27 +1,34 @@
 <?php
-// Contact Form
+/*-------------------------------------------------------+
+| PHP-Fusion İçerik Yönetim Sistemi
+| PHP-Fusion v9.02 RC5 Türkçe Dil Dosyası
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: contact.php
+| Author: Ali SAKA
+| Web: http://www.fusiontr.com  
++--------------------------------------------------------*/
+// İletişim Formu
 $locale['400'] = "İletişim Formu";
-$locale['401'] = "Bize erişmeniz için pek çok yol mevcut, 
-".hide_email(fusion_get_settings('siteemail')).". adresine direkt email gönderebilirsiniz. Eğer üye iseniz
-<a href='messages.php?msg_send=1'>Özel mesaj</a>. ile bizle iletişim kurabilirsiniz. 
-Alternatif olarak, aşağıdaki formu doldurarak bizimle email aracılığı ile iletişim kurabilirsiniz.";
+$locale['401'] = "Bize Ulaşmanız İçin Pek Çok Yol Mevcut, 
+[SITE_EMAIL] Adresine Doğrudan E-Mail Gönderebilirsiniz. Eğer Sitemize Üyeyseniz
+[PM_LINK] ile Bizle İletişim Kurabilirsiniz. Alternatif Olarak, Bu Sayfadaki Formu Doldurarak E-Posta İle Bize Mesaj Gönderebilirsiniz.";
 $locale['402'] = "İsim:";
-$locale['403'] = "E-Posta Adresi:";
+$locale['403'] = "E-posta Adresi:";
 $locale['404'] = "Konu:";
 $locale['405'] = "Mesaj:";
-$locale['406'] = "Mesajı gönder";
+$locale['406'] = "Mesajı Gönder";
 $locale['407'] = "Doğrulama Kodu:";
 $locale['408'] = "Doğrulama Kodunu Girin:";
-// Contact Errors
-$locale['420'] = "Bir isim belirtmelisiniz";
-$locale['421'] = "Bir email adresi belirtmelisiniz";
-$locale['422'] = "Bir konu belirtmelisiniz";
-$locale['423'] = "Bir mesaj girmelisiniz";
-$locale['424'] = "Hatalı doğrulama kodu, lütfen doğrulama kodunu yeniden girin";
-$locale['425'] = "Dahili hata: mesajınız gönderilemedi.";
-// Message Sent
-$locale['440'] = "Mesajınız başarı ile gönderildi";
+// İletişim Formu Hata Mesajları
+$locale['420'] = "Bir İsim Belirtmelisiniz";
+$locale['421'] = "Bir E-posta Adresi Belirtmelisiniz";
+$locale['422'] = "Bir Konu Belirtmelisiniz";
+$locale['423'] = "Bir Mesaj Belirtmelisiniz";
+$locale['424'] = "Hatalı Doğrulama Kodu, Lütfen Doğrulama Kodunu Yeniden Girin";
+$locale['425'] = "Dahili Hata: Mesajınız Gönderilemedi.";
+// Mesaj Gönderme
+$locale['440'] = "Mesajınız Başarı İle Gönderildi";
 $locale['441'] = "Teşekkürler";
-$locale['442'] = "Mesajınız aşağıdaki sebep(ler)den dolayı gönderilemedi:";
-$locale['443'] = "Lütfen yeniden deneyin.";
-?>
+$locale['442'] = "Mesajınız Aşağıdaki Sebep(ler)den Dolayı Gönderilemedi:";
+$locale['443'] = "Lütfen Tekrar Deneyin."; 

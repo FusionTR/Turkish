@@ -1,25 +1,25 @@
-<?php
+<?php  
+/*-------------------------------------------------------+
+| PHP-Fusion İçerik Yönetim Sistemi
+| PHP-Fusion v9.02 RC5 Türkçe Dil Dosyası
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: lostpassword.php
+| Author: Ali SAKA
+| Web: http://www.fusiontr.com
++--------------------------------------------------------*/
 $locale['400'] = "Kayıp Şifre";
-$locale['401'] = "Şifreniz belirtmiş olduğunuz elektronik posta adresine gönderilmiştir.";
-$locale['402'] = "Yeni şifreniz elektronik posta adresinize gönderilmiştir.";
+$locale['401'] = "Şifreniz Belirtmiş Olduğunuz E-Posta Adresine Gönderilmiştir.";
+$locale['402'] = "Yeni Şifreniz eE-Posta Adresinize Gönderilmiştir.";
 $locale['403'] = "Ana Sayfaya Geri Dön";
-$locale['404'] = "Yazmış olduğunuz elektronik posta adresi kayıtlarımızda bulunmamaktadır.";
-$locale['405'] = "Geçersiz elektronik posta Adresi. Lütfen doğru yazdığınıza emin olun.";
+$locale['404'] = "Yazmış Olduğunuz E-Posta Adresi Kayıtlarımızda Bulunmamaktadır.";
+$locale['405'] = "Geçersiz E-Posta Adresi. Lütfen Doğru Yazdığınıza Emin Olun.";
 $locale['406'] = "Lütfen Tekrar Deneyin.";
-$locale['407'] = "Lütfen sitemize üye olurken kullanmış olduğunuz elektronik posta adresini aşağıdaki bölüme yazınız.<br />
-Şifremi Gönder butonuna tıklayarak şifreniz belirtmiş olduğunuz elektronik posta adresine gönderilecektir.";
+$locale['407'] = "Lütfen Sitemize Üye Olurken Kullanmış Olduğunuz E-Posta Adresini Aşağıdaki Bölüme Yazınız..\nŞifremi Gönder Butonuna Tıklayarak Şifreniz Belirtmiş Olduğunuz E-Posta Adresine Gönderilecektir.";
 $locale['408'] = "Şifremi Gönder";
 $locale['409'] = "Yeni Şifre Talebi -  ";
-$locale['410'] = "Merhaba [USER_NAME],\n
-Siz ya da başka biri tarafından ".fusion_get_settings('sitename')." sitesinden yeni bir şifre talebinde bulunuldu.\n
-Şifrenizi değiştirebilmek için aşağıdaki linki tıklayınız:\n
-[NEW_PASS_LINK]\n
-Teşekkürler,
-".fusion_get_settings('siteusername');
-$locale['411'] = "Merhaba [USER_NAME],\n
-".fusion_get_settings('sitename')." sitemize üye girişi yapabilmeniz için yeni şifreniz aşağıda yazmaktadır:\n
-[NEW_PASS]\n
-Teşekkürler,
-".fusion_get_settings('siteusername');
-$locale['412'] = "Bir hata meydana geldi, lütfen yeniden deneyin.";
-?>
+$locale['410'] = "Merhaba [USER_NAME],\nSiz Yada Başka Biri Tarafından [SITENAME] Sitesinden Yeni Bir Şifre Talebinde Bulunuldu.\n
+Şifrenizi Değiştirebilmek İçin Aşağıdaki Linke Tıklayınız:\n[NEW_PASS_LINK]\n\nSaygılarımızla,\n[SITEUSERNAME]";
+$locale['411'] = "Merhaba [USER_NAME],\n [SITENAME] Sitemize Üye Girişi Yapabilmeniz İçin Yeni Şifreniz Aşağıda Yazmaktadır:\n
+[NEW_PASS]\n\nSaygılarımızla,\n[SITEUSERNAME]";
+$locale['412'] = "Bir Hata Meydana Geldi, Lütfen Yeniden Deneyin.";
