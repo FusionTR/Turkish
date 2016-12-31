@@ -1,4 +1,13 @@
-<?php                          
+<?php
+/*-------------------------------------------------------+
+| PHP-Fusion İçerik Yönetim Sistemi
+| PHP-Fusion v9.02 RC5 Türkçe Dil Dosyası
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: setup.php
+| Author: Ali SAKA
+| Web: http://www.fusiontr.com
++--------------------------------------------------------*/                         
 //color selection for multiple droplists
 $locale['color_0'] = "Boş";
 $locale['color_1'] = "Buz Mavisi";
@@ -160,4 +169,3 @@ $locale['color_156'] = "Soluk Yeşil";
 $locale['color_157'] = "Soluk Turkuaz";
 $locale['color_158'] = "Soluk Mavi";
 $locale['color_159'] = "Erik Pembesi";
-?>
