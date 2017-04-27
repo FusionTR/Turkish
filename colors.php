@@ -1,7 +1,7 @@
 <?php
 /*-------------------------------------------------------+
 | PHP-Fusion İçerik Yönetim Sistemi
-| PHP-Fusion v9.02 RC5 Türkçe Dil Dosyası
+| PHP-Fusion v9 Türkçe Dil Dosyası
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
 | Filename: colors.php

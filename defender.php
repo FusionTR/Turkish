@@ -1,7 +1,7 @@
 <?php
 /*-------------------------------------------------------+
 | PHP-Fusion İçerik Yönetim Sistemi
-| PHP-Fusion v9.02 RC5 Türkçe Dil Dosyası
+| PHP-Fusion v9 Türkçe Dil Dosyası
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
 | Filename: defender.php
@@ -9,11 +9,12 @@
 | Web: http://www.fusiontr.com
 +--------------------------------------------------------*/
 $locale['validate'] = "Lütfen Alanı Kontrol Edin Ve Tekrar Doğrulayın.";
-$locale['error_request'] = 'İsteğiniz İşlenirken Bir Hata Oluştu.'; // to be moved
-$locale['regex_error'] = 'Lütfen %s Alanını Kontrol Edin Ve Tekrar Doğrulayın'; // to be moved
+$locale['error_request'] = "İsteğiniz İşlenirken Bir Hata Oluştu."; // to be moved
+$locale['regex_error'] = "Lütfen %s Alanını Kontrol Edin Ve Tekrar Doğrulayın"; // to be moved
 // Text fields errors
-$locale['error_input_default'] = 'Lütfen Bu Alanı Doldurun';
-$locale['error_input_password'] = 'Lütfen Geçerli Bir Şifre Giriniz';
+$locale['error_input_username'] = "Lütfen Geçerli Bir Kullanıcı Adı Giriniz";
+$locale['error_input_default'] = "Lütfen Bu Alanı Doldurun";
+$locale['error_input_password'] = "Lütfen Geçerli Bir Şifre Giriniz";
 $locale['error_input_email'] = "Lütfen Geçerli Bir E-Posta Adresi Giriniz";
 $locale['error_input_number'] = "Lütfen Geçerli Bir Numara Girinin";
 $locale['error_input_url'] = "Lütfen Geçerli Bir URL Giriniz";
@@ -24,14 +25,15 @@ $locale['df_error_text'] = "%s has error and requires your attention.";
 $locale['error_invalid_theme'] = "Lütfen Geçerli Bir Tema Seçin"; // to be moved
 $locale['error_input_checkbox'] = "Lütfen Onay Kutusunu İşaretleyin"; // to be moved
 $locale['error_input_file'] = "Lütfen Geçerli Bir Dosya Seçiniz";
+$locale['error_secure_file'] = "Kötü Amaçlı Eylem Olasılığı Nedeniyle Yüklenen Dosya Reddedildi.";
 // Admin Login
-$locale['cookie_title'] = "Session Timed Out";
-$locale['cookie_description'] = "There are no valid authentication / or your session has probably timed out. Please login again.";
-$locale['cookie_expired'] = "The site admin cookie has expired. Please login again.";
-$locale['password_invalid'] = "Wrong or Invalid Password";
-$locale['password_invalid_description'] = "The password input was incorrect. Please try again.";
-$locale['cookie_error'] = "Cookie Error";
-$locale['cookie_error_description'] = "You need to enable browser cookie to enter administration.";
+$locale['cookie_title'] = "Oturum Zaman Aşımına Uğradı";
+$locale['cookie_description'] = "Geçerli Kimlik veya Oturum Muhtemelen Zaman Aşımına Uğradı. Tekrar Giriş Yapınız.";
+$locale['cookie_expired'] = "Site Yöneticisi Çerez Süresi Doldu. Tekrar Giriş Yapınınız.";
+$locale['password_invalid'] = "Yanlış veya Geçersiz Şifre";
+$locale['password_invalid_description'] = "Parola Giriş Başarısız Oldu. Lütfen Tekrar Deneyin.";
+$locale['cookie_error'] = "Çerez Hatası";
+$locale['cookie_error_description'] = "Yönetim Bölümüne Girebilmek İçin Tarayıcı Çerezini Etkinleştirmeniz Gerekir.";
 $locale['validate_title'] = "Could you check something!";
 // Address errors
 $locale['street_error'] = "Street Address requires attention.";
@@ -51,8 +53,8 @@ $locale['doc_number_error'] = "Document number requires attention.";
 $locale['doc_authority_error'] = "Document authority requires attention.";
 $locale['date_issue_error'] = "Document date of issue requires attention.";
 // Tokens
-$locale['token_error_title'] = "Token Error";
-$locale['token_error'] = "We are sorry, there was an error. Please go Back, Refresh the page and try again.";
+$locale['token_error_title'] = "Token Hatası";
+$locale['token_error'] = "Üzgünüz, Bir Hata Oluştu. Geri Dönün, Sayfayı Yenileyin ve Tekrar Deneyin.";
 $locale['token_error_1'] = "Session not started.";
 $locale['token_error_2'] = "Token was not posted.";
 $locale['token_error_3'] = "Invalid token. ";
@@ -68,6 +70,7 @@ $locale['df_300'] = "Click to add files";
 $locale['df_301'] = "Click to add photo";
 $locale['df_302'] = "Click to add video";
 $locale['df_303'] = "Click to add audio";
+$locale['df_304'] = "Selected file Remove";
 
 $locale['df_400'] = "%s contains invalid character.";
 $locale['df_401'] = "%s is not a valid email address.";
