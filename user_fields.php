@@ -1,4 +1,13 @@
-<?php
+<?php  
+/*-------------------------------------------------------+
+| PHP-Fusion İçerik Yönetim Sistemi
+| PHP-Fusion v9 Türkçe Dil Dosyası
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: user_fields.php
+| Author: Ali SAKA
+| Web: http://www.fusiontr.com
++--------------------------------------------------------*/
 // Items shown in profile
 $locale['u040'] = "Kayıt Tarihi";
 $locale['u041'] = "Son Ziyaret";
@@ -58,6 +67,8 @@ $locale['u111'] = "%u üye";
 $locale['u112'] = "%u üyeler";
 $locale['u113'] = "Kullanıcı Adı";
 $locale['u114'] = "Kullanıcı Tipi";
+$locale['u115'] = "Dil";
+$locale['u116'] = "Hiçbir grup üyesi yok.";
 // User name and email
 $locale['u120'] = "Kullanıcı adı geçersiz karakter ya da Türkçe karakter içermekte..";
 $locale['u121'] = "Girmiş olduğunuz kullanıcı adı daha önce bir başkası tarafından alınmış";
@@ -101,16 +112,16 @@ $locale['u149a'] = "Mevcut yönetici parolanız belirtilmemiş ya da geçersiz."
 $locale['u149b'] = "Mevcut giriş parolanız belirtilmemiş ya da geçersiz. <br />Yönetici parolanızı giriş parolanızı girmeden değiştiremezsiniz.";
 // Email actiation
 $locale['u150'] = "Kayıt işleminiz bitmek üzere, az sonra giriş bilgilerinizi ve de adresinizi doğrulamak için aktivasyon linkinizi barındıran bir e-posta alacaksınız..";
-$locale['u151'] = "Değerli üyemiz ".fusion_get_settings('sitename')." sitemize başarıyla katılmak üzeresiniz.";
-$locale['u152'] = "Merhaba USER_NAME,\n
-sitemiz olan ".fusion_get_settings('sitename')." adresine hoş geldiniz. Giriş bilgileriniz aşağıdadır:\n
-Kullanıcı Adınız: USER_NAME
-Parolanız: USER_PASSWORD\n
-Hesabınızı şu linke tıklayarak aktif edebilirsiniz: ACTIVATION_LINK\n\n
-Saygılarımızla,
-".fusion_get_settings('sitename');
+$locale['u151'] = "Değerli üyemiz [SITENAME] sitemize başarıyla katılmak üzeresiniz.";
+$locale['u152'] = "Merhaba USER_NAME,\n\r
+sitemiz olan SITENAME adresine hoş geldiniz. Giriş bilgileriniz aşağıdadır:\n\r
+Kullanıcı Adınız: USER_NAME\n\r
+Parolanız: USER_PASSWORD\n\r
+Hesabınızı şu linke tıklayarak aktif edebilirsiniz: ACTIVATION_LINK\n\n\r\r
+Saygılarımızla,\n\r
+SITEUSERNAME";
 $locale['u153'] = "Aktivasyon e-postası gönderilemedi.";
-$locale['u154'] = "Lütfen <a href='".BASEDIR."contact.php'>Site Yönetimi</a> ile irtibata geçin.";
+$locale['u154'] = "Lütfen [LINK]Site Yönetimi[/LINK] ile irtibata geçin.";
 $locale['u155'] = "Hesabı Aktifleştir";
 $locale['u156'] = "E-postanızı değiştirmek için lütfen mevcut parolanızı yazın.";
 // Success / Fail
@@ -130,10 +141,9 @@ $locale['u172'] = "Üye başarı ile eklendi.";
 $locale['u173'] = "Üye yönetimine dön.";
 $locale['u174'] = "Başka bir üye ekle.";
 // Avatar upload
-$locale['u180'] = "Avatar boyutu izin verilen en yüksek boyuttan daha yüksek, avatar ".parsebytesize($fusion_get_settings['avatar_filesize'])." değerinden düşük olmalıdır..";
+$locale['u180'] = "Avatar resmi yüklenirken hata oluştu";
 
-
-$locale['u184'] = "Maks. dosya boyutu: %s / Maks. boyut: %ux%u piksel";
+$locale['u184'] = "Maks. Dosya Boyutu: %s / Maks. Boyut: %ux%u pixels";
 $locale['u185'] = "Avatar";
 $locale['u186'] = "Avatar yüklemek için gözat tuşuna basın";
 $locale['u187'] = "Sil";
@@ -141,19 +151,22 @@ $locale['u187'] = "Sil";
 $locale['u190'] = "Doğrulama kodu";
 $locale['u191'] = "Doğrulama kodunu girin";
 $locale['u192'] = "Kullanıcı sözleşmesi";
-$locale['u193'] = "<a href='".BASEDIR."print.php?type=T' target='_blank'>Kullanıcı Sözleşmesi</a>ni okudum ve kabul ediyorum.";
+$locale['u193'] = "[LINK]Kullanıcı Sözleşmesi[/LINK]ni okudum ve kabul ediyorum.";
+$locale['u193a'] = "Güncellendi";
+$locale['u193b'] = "Katılıyorum";
 $locale['u194'] = "Geçersiz doğrulama kodu.";
 $locale['u195'] = "Doğrulama kodu boş bırakılamaz.";
 // E-mail Change Confirmation
 $locale['u200'] = "Yeni girmiş olduğunuz e-posta adresine (%s) doğrulama postası gönderildi.";
 $locale['u201'] = "Yeni e-posta adresinize gönderilen postadaki linke tıkladığınızda e-posta adresiniz değiştirilecek.";
-$locale['u202'] = "E-posta adresi doğrulama - ".fusion_get_settings('sitename');
+$locale['u202'] = "E-posta adresi doğrulama - [SITENAME]";
 $locale['u203'] = "Merhaba [USER_NAME],\n
 Birisi sitemizdeki e-posta adresini bu e-posta adresi ile değiştirmek istiyor.\n
 Eğer bu durumdan haberdarsanız ve de sitedeki hesabnınızın e-posta adresini bu adres ile değiştirmek itiyorsanız lütfen aşağıdaki linke tıklayın:\n
 [EMAIL_VERIFY_LINK]\n
 Not: devam etmek için giriş yapmış olmanız lazım.\n
 Saygılarımızla,
-".fusion_get_settings('siteusername')."
-".fusion_get_settings('sitename');
-?>
+[SITEUSERNAME]\n\r
+[SITENAME]";
+
+$locale['u210'] = "Kullanıcı İtibar"; 

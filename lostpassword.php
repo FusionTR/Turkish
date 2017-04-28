@@ -1,7 +1,7 @@
 <?php  
 /*-------------------------------------------------------+
 | PHP-Fusion İçerik Yönetim Sistemi
-| PHP-Fusion v9.02 RC5 Türkçe Dil Dosyası
+| PHP-Fusion v9 Türkçe Dil Dosyası
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
 | Filename: lostpassword.php
@@ -23,3 +23,4 @@ $locale['410'] = "Merhaba [USER_NAME],\nSiz Yada Başka Biri Tarafından [SITENA
 $locale['411'] = "Merhaba [USER_NAME],\n [SITENAME] Sitemize Üye Girişi Yapabilmeniz İçin Yeni Şifreniz Aşağıda Yazmaktadır:\n
 [NEW_PASS]\n\nSaygılarımızla,\n[SITEUSERNAME]";
 $locale['412'] = "Bir Hata Meydana Geldi, Lütfen Yeniden Deneyin.";
+$locale['413'] = "Lütfen E-posta Adresinizi Girin:";

@@ -1,7 +1,7 @@
 <?php
 /*-------------------------------------------------------+
 | PHP-Fusion İçerik Yönetim Sistemi
-| PHP-Fusion v9.02 RC5 Türkçe Dil Dosyası
+| PHP-Fusion v9 Türkçe Dil Dosyası
 | https://www.php-fusion.co.uk/
 +--------------------------------------------------------+
 | Filename: errors.php
@@ -25,3 +25,4 @@ $locale['E_STRICT'] = "";
 $locale['err_100'] = "N/A";
 $locale['err_101'] = "<strong>UYARI:</strong> Sayfa Çözümlenirken Bir Hata İle Karşılaşıldı. Lütfen PHP-Fusion'un [ERROR_LOG_URL]Hata Logları[/ERROR_LOG_URL] Bakarak Detayları İnceleyin.";
 $locale['err_102'] = "Hataları Göster!";
+$locale['err_103'] = "{%function%} {%folder%} does not exists.";

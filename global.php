@@ -1,4 +1,15 @@
-<?php  
+<?php
+/**
+ * English Locale
+ *
+ * @locale charset           ISO 639-1 - http://www.loc.gov/standards/iso639-2/php/code_list.php
+ * @locale region            ISO-3166 (2 Alpha numeric) - https://www.iso.org/obp/ui/#search
+ * @locale tinymce           refer to path includes/jscripts/tinymce/langs/{value}.js
+ * @locale select2           refer to path includes/dynamics/select2/select2_locale_{value}.js
+ * @locale phpmailer         refer to path includes/classes/PHPMailer/language/phpmailer.lang-{value}.php
+ * @locale password_strength refer to path includes/dynamics/password/lang/{value}.js
+ * @package locale/English
+ */
 /*-------------------------------------------------------+
 | PHP-Fusion İçerik Yönetim Sistemi
 | PHP-Fusion v9.02 RC5 Türkçe Dil Dosyası
@@ -8,15 +19,18 @@
 | Author: Ali SAKA
 | Web: http://www.fusiontr.com
 +--------------------------------------------------------*/
-// Locale Settings
 setlocale(LC_TIME, "tr_TR.utf8"); // Linux Server (Windows may differ)
 $locale['charset'] = "utf-8";
 $locale['region'] = "TR";
 $locale['xml_lang'] = "tr";
+$locale['short_lang_name'] = "tr";
 $locale['tinymce'] = "tr";
 $locale['select2'] = "tr";
 $locale['phpmailer'] = "tr";
-$locale['datepicker'] = "tr";
+$locale['datepicker'] = "tr-tr";
+$locale['datepicker_js'] = "M-DD-YYYY H:mm:ss";
+$locale['datepicker_php'] = "m-d-Y H:i:s";
+$locale['password_strength'] = "tr";
 // Full & Short Months
 $locale['months'] = "&nbsp|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık";
 $locale['shortmonths'] = "&nbsp|Ock|Şbt|Mar|Nis|May|Haz|Tem|Ağus|Eyl|Eki|Kas|Arlk";
@@ -46,6 +60,7 @@ $locale['sel_state'] = "İl Seçin";
 $locale['sel_user'] = "Lütfen Kullanıcı Adı Girin";
 $locale['add_language'] = "Dil Çevirilerini Ekle";
 $locale['add_lang'] = "Ekle %s";
+$locale['other_states'] = "Other States";
 // Name
 $locale['name'] = "Tam Adınız";
 $locale['username_pretext'] = "Genel Kullanıcı Adınızla Kullanıcı Profil Adınız Aynıdır.: %s %s";
@@ -98,7 +113,7 @@ $locale['global_020'] = "Forum Başlıkları";
 $locale['global_021'] = "En Yeni Forum Başlıkları";
 $locale['global_022'] = "En Fazla İlgilenilen Başlıklar";
 $locale['global_023'] = "Henüz Başlık Oluşturulmamış.";
-$locale['global_024'] = "Participated Discussions";
+$locale['global_024'] = "Katıldığı Tartışmalar";
 $locale['global_027'] = "Cevaplanmamış Konular";
 $locale['global_028'] = "Çözülmemiş Sorular";
 // Comments Side panel
@@ -182,6 +197,7 @@ $locale['global_105'] = "Henüz Üye Değil Misiniz? [LINK]Buraya Tıklayarak[/L
 $locale['global_106'] = "[LINK]Parolanızı Mı Unuttunuz? [/LINK]";
 $locale['global_107'] = "Kayıt Ol";
 $locale['global_108'] = "Kayıp Parola";
+$locale['global_109'] = "Kaydol";
 // Member User Menu
 $locale['global_120'] = "Profil Sayfanızı Özelleştirin";
 $locale['global_121'] = "Özel Mesajlar";
@@ -203,6 +219,7 @@ $locale['UM063'] = "Beni Hatırla";
 $locale['UM064'] = "Login";
 $locale['UM065'] = "Henüz Üye Değil Misiniz? [LINK]Buraya Tıklayarak[/LINK] Üye Olabilirsiniz.";
 $locale['UM066'] = "Parolanızı Mı Unuttunuz?\n[LINK]Yeni Bir Tane Talep Et[/LINK].";
+$locale['UM067'] = "(Genel veya paylaşılan bilgisayarda önerilmez)";
 $locale['UM080'] = "Profil Düzenle";
 $locale['UM081'] = "Özel Mesajlar";
 $locale['UM082'] = "Üye Listesi";
@@ -220,6 +237,7 @@ $locale['UM092'] = "Makale Öner";
 $locale['UM093'] = "Resim Öner";
 $locale['UM094'] = "Dosya Öner";
 $locale['UM095'] = "Blog Öner";
+$locale['UM102'] = "S.S.S. Öner";
 // User Panel
 $locale['UM096'] = "Hoş Geldiniz: ";
 $locale['UM097'] = "Kişisel Menü";
@@ -240,6 +258,7 @@ $locale['global_172'] = "Sayfa Oluşturulma Süresi: %s Saniye";
 $locale['global_173'] = "Sorgu";
 $locale['global_174'] = "Kullanılan Bellek";
 $locale['global_175'] = "Ortalama: %s Saniye";
+$locale['global_176'] = "Gizlilik Politikası";
 // Admin Navigation
 $locale['global_180'] = "Yönetici Ana Sayfa";
 $locale['global_181'] = "Siteye Geri Dön";
@@ -252,9 +271,7 @@ $locale['global_193'] = "Cookie Oluşturulamadı. Lütfen Doğru Şekilde Oturum
 $locale['global_194'] = "Üyeliğiniz Askıya Alınmıştır (Siteden Banlandınız).";
 $locale['global_195'] = "Üyeliğiniz Henüz Aktif Edilmedi.";
 $locale['global_196'] = "Hatalı Kullanıcı Adı Veya Şifre.";
-
 $locale['global_197'] = "Yeniden Yönlendiriliyorsunuz, Lütfen Bekleyin...\n\n[ [LINK] Veya Beklemek İstemiyorsanız Buraya Tıklayın[/LINK] ]";
-
 $locale['global_198'] = "UYARI: KURULUM KLASÖRÜ TESPİT EDİLDİ, LÜTFEN KURULUM DOSYASINI SİLİNİZ.";
 $locale['global_199'] = "UYARI: Yönetici Parolası Oluşturulmamış, [LINK]Profil Düzenle[/LINK] Tıklayarak Oluşturunuz.";
 //Titles
@@ -273,8 +290,8 @@ $locale['global_301'] = "Gerçekten Üzgünüz, Ancak Bu Sayfa Görüntülenemiy
   Tema Ayarları Sayfasında Seçildiği Gibi.\n\nBu Sitenin Düzenli Üyesiyseniz, Lütfen [SITE_EMAIL] E-Posta Aracılığıyla Sitenin Yöneticisine Başvurun Ve Bu Sorunu Bildirin.";
 $locale['global_302'] = "Ana Ayarlarda Seçilen Tema Bulunamadı Veya Dosyaları Eksik!";
 // JavaScript Not Enabled
-$locale['global_303'] = "Oh no! Where's the JavaScript?\nYour Web browser does not have JavaScript enabled or does not support JavaScript.
-Please enable JavaScript on your Web browser to properly view this Web site, or upgrade to a Web browser that does support JavaScript.";
+$locale['global_303'] = "Oo Hayır! JavaScript Nerede?\nKullandığınız web tarayıcısının JavaScript'i etkin değil veya JavaScript'i desteklemiyor.
+Bu Web sitesini düzgün görüntülemek için JavaScript etkinleştirin veya JavaScript destekleyen bir Web tarayıcısı yükleyin.";
 // User Management
 $locale['global_400'] = "Askıya Alınmış (Geçici Banlanmış)";
 $locale['global_401'] = "Banlanmış";
@@ -316,7 +333,6 @@ $locale['global_457'] = "Merhaba USER_NAME,
 Kullanıcı Adı: USER_NAME\nParola: [PASSWORD]\n\nRegards,\n[SITEUSERNAME]";
 $locale['global_458'] = "USER_NAME İçin Yeni Bir Parola Belirlendi.";
 $locale['global_459'] = "USER_NAME İçin Yeni Bir Parola Belirlendi, ve E-Posta Gönderilmedi. Lütfen Kullanıcıya Yeni Bilgileri İletmeyi Unutmayın.";
-
 // Function parsebytesize()
 $locale['global_460'] = "Boş";
 $locale['global_461'] = "Byte";
@@ -328,6 +344,7 @@ $locale['global_465'] = "TB";
 $locale['global_500'] = "%s Sayfasına Yönlendiriliyorsunuz, Lütfen Bekleyin. Eğer Yönlenme Gerçekleşmezse Buraya Tıklayın..";
 // Captcha Locales
 $locale['global_600'] = "Doğrulama Kodu";
+$locale['global_601'] = "Doğrulama kodunu doğru girmelisiniz";
 $locale['recaptcha'] = "tr";
 // Site links
 $locale['global_700'] = "Daha Fazla Göster";
@@ -338,6 +355,7 @@ $locale['global_901'] = "Medya Ekle";
 $locale['global_ML100'] = "Dil:";
 $locale['global_ML101'] = "- Dil Seçin -";
 $locale['global_ML102'] = "Site Dili";
+$locale['global_ML103'] = "Dili Değiştir";
 // Flood Control
 $locale['flood'] = "Flood Sayılabilecek Kadar Çok Seri Paylaşım Yapıyorsunuz. %s Belirtilen Süre Kadar Mesaj Göndermeniz Engellendi..";
 $locale['no_image'] = "İmaj Yok";
@@ -399,7 +417,6 @@ $locale['promote'] = "Destek";
 $locale['show'] = "Göster";
 $locale['actions'] = "Eylem";
 $locale['language'] = "Dil";
-
 // Persons & Identifiers
 $locale['you'] = "Sen";
 $locale['me'] = "Ben";
@@ -409,9 +426,7 @@ $locale['us'] = "Bize";
 $locale['he'] = "O";
 $locale['she'] = "O";
 $locale['it'] = "O";
-
 //Tables
-$locale['status'] = "Durum";
 $locale['order'] = "Gönderi";
 $locale['sort'] = "Sırala";
 $locale['id'] = "ID";
@@ -426,7 +441,7 @@ $locale['root'] = "Temel Olarak";
 $locale['choose-user'] = "Lütfen Bir Kullanıcı Seçin...";
 $locale['choose-location'] = "Lütfen Konum Seçin";
 $locale['parent'] = "Yeni Temel Oluştur..";
-$locale['order'] = "Ürün Sırala";
+$locale['item_order'] = "Ürün Sırala";
 $locale['status'] = "Durum";
 $locale['note'] = "Bu Ögeyi Not Alın";
 $locale['publish'] = "Yayınlandı";
@@ -452,6 +467,7 @@ $locale['nopreview'] = "Önizlenecek Bir Şey Yok.";
 $locale['mark_as'] = "İşaretle";
 $locale['preview'] = "Önizleme";
 $locale['custom'] = "Özel";
+$locale['submit'] = "Gönder";
 // Alignment
 $locale['left'] = "Sol";
 $locale['center'] = "Merkez";
@@ -496,5 +512,9 @@ $locale['fmt_views'] = "Gösterim|Gösterimler";
 $locale['fmt_weblink'] = "Site Linki|Site Linkleri";
 $locale['fmt_week'] = "Hafta|Haftalar";
 $locale['fmt_year'] = "Yıl|Yıllar";
+$locale['fmt_points'] = "puan|puanlar";
+$locale['fmt_admin'] = "yönetici|yöneticiler";
+$locale['fmt_group'] = "grup|gruplar";
+$locale['fmt_category'] = "kategori|kategoriler";
 // include Defender locales
 include __DIR__."/defender.php";

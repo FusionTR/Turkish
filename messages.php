@@ -1,4 +1,13 @@
-<?php
+<?php  
+/*-------------------------------------------------------+
+| PHP-Fusion İçerik Yönetim Sistemi
+| PHP-Fusion v9 Türkçe Dil Dosyası
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: messages.php
+| Author: Ali SAKA
+| Web: http://www.fusiontr.com
++--------------------------------------------------------*/
 // Standard
 $locale['400'] = "Özel Mesajlarınız.";
 $locale['401'] = "Yeni Mesaj Yaz";
@@ -22,7 +31,7 @@ $locale['418'] = "Hepsi";
 $locale['419'] = "Özel Mesajınız Yok.";
 $locale['420'] = "Özel Mesaj Gönder";
 $locale['420a'] = "Alıcı";
-$locale['421'] = "Kime";
+$locale['421'] = "Kullanıcı Bul...";
 $locale['422'] = "Mesajınız";
 //$locale['422a'] = "Orijinal Mesaj";
 $locale['423'] = "BB Kodu";
@@ -78,7 +87,7 @@ $locale['471'] = "Mesaj Yok";
 
 // Error Messages
 $locale['480'] = "Hata";
-$locale['481'] = "Yanlış Metaj IDsi";
+$locale['481'] = "Yanlış Mesaj IDsi";
 $locale['482'] = "Yanlış Üye IDsi";
 $locale['483'] = "Sadece Üyeler İçindir";
 $locale['484'] = "Özel mesajlar size tanınan bir kolaylıktır. Lütfen kötüye kullanmayınız.";
@@ -134,4 +143,8 @@ $locale['629'] = "Seçilen Mesaj(lar) taşınamıyor, taşımak istediğiniz dos
 $locale['630'] = " Mesaj Limiti";
 $locale['631'] = "Evet";
 $locale['632'] = "Hayır";
-?>
+
+$locale['700'] = "Kullanıcı gelen kutusu doldu. Silmeyi deneyin veya 102 - 103 durumuna yükseltin.";
+$locale['701'] = "Gönderen Kullanıcı Kimliği DB'de mevcut değil. Dizi İptal Edildi.";
+$locale['702'] = "Mesaj Alıcısı Kullanıcı Kimliği geçersiz";
+$locale['703'] = "You are flooding, send_pm halted";

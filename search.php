@@ -1,5 +1,14 @@
-<?php
-$locale['400'] = fusion_get_settings('sitename'). "'sitesinde arama yap";
+<?php  
+/*-------------------------------------------------------+
+| PHP-Fusion İçerik Yönetim Sistemi
+| PHP-Fusion v9 Türkçe Dil Dosyası
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: search.php
+| Author: Ali SAKA
+| Web: http://www.fusiontr.com
++--------------------------------------------------------*/
+$locale['400'] = "[SITENAME] Arama";
 $locale['401'] = "Aranacak Kelime:";
 $locale['402'] = "Ara";
 $locale['403'] = "Bu kelimelerin her birini ayrı ayrı ara";
@@ -45,4 +54,3 @@ $locale['521'] = "sonuçlar";
 $locale['522'] = "bulundu arama kriterlerine göre";
 //more than 100 results
 $locale['530'] = "Lütfen arama kriterlerinizde daha dikkatli olun. Arama kriterleninize göre %s sonuç bulundu, fakat biz en popüler 100 tanesini görüntülüyoruz";
-?>
