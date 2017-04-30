@@ -1,22 +1,29 @@
 <?php
-$locale['100'] = "Kullanıcı Log Geçmişi";
-$locale['101'] = "Id";
-$locale['102'] = "Tarih";
-$locale['103'] = "Kullanıcı Adı";
-$locale['104'] = "Kullanıcı Alanı";
-$locale['105'] = "Eski Değer";
-$locale['106'] = "Yeni Değer";
-$locale['107'] = "Sıralama:";
-$locale['108'] = "Kullanıcı Adı / Kullanıcı ID:";
-$locale['109'] = "Gönder";
-$locale['110'] = "Daha eski kayıtları sil";
-$locale['111'] = "gün";
-$locale['112'] = "Şu an mevcut log geçmişi bulunamadı.";
-$locale['113'] = "Seçili kullanıcı Adı:";
-$locale['114'] = "İptal";
-$locale['115'] = "Kullanıcı Alanı:";
-$locale['116'] = "Sil";
-$locale['117'] = "Seçenekler";
-$locale['118'] = "%d günden eski tüm girdiler silinecek.";
-$locale['119'] = "Kullanıcı log geçmişi girdileri silindi";
-?>
+/*-------------------------------------------------------+
+| PHP-Fusion İçerik Yönetim Sistemi
+| PHP-Fusion v9 Türkçe Dil Dosyası
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: user_log.php
+| Author: Ali SAKA
+| Web: http://www.fusiontr.com  
++--------------------------------------------------------*/
+$locale['UL_001'] = "Kullanıcı Log Geçmişi";
+$locale['UL_002'] = "Tarih";
+$locale['UL_003'] = "Kullanıcı Adı";
+$locale['UL_004'] = "Kullanıcı Alanı";
+$locale['UL_005'] = "%d Günden Eski Tüm Girdiler Silinecek.";
+$locale['UL_006'] = "Kullanıcı Log Geçmişi Girdileri Silindi";
+$locale['UL_007'] = "Kullanıcı E-Posta";
+$locale['UL_008'] = "Sıralama:";
+$locale['UL_009'] = "Kullanıcı Adı / Kullanıcı Id:";
+$locale['UL_010'] = "Kullanıcı Alanı:";
+$locale['UL_011'] = "Gönder";
+$locale['UL_012'] = "Eski Değer";
+$locale['UL_013'] = "Yeni Değer";
+$locale['UL_014'] = "Seçenekler";
+$locale['UL_015'] = "Şu An Mevcut Log Geçmişi Bulunamadı.";
+$locale['UL_016'] = "Daha Eski Kayıtları Sil:";
+$locale['UL_017'] = "Gün";
+$locale['UL_018'] = "Artan";
+$locale['UL_019'] = "Azalan";

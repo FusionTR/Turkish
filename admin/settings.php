@@ -58,6 +58,7 @@ $locale['462'] = "Sunucu zaman dengesi";
 $locale['463'] = "Bunu server zamanını GMT 0 yapabilmek için ayarlayın";
 $locale['464'] = "Var sayılan saat ayarı";
 $locale['465'] = "Haftanın İlk Günü";
+
 // Forum Settings
 $locale['500'] = "Forum Ayarları";
 $locale['501'] = "Son Aktif Forum Başlıkları Bloğu:";
@@ -101,6 +102,7 @@ $locale['553'] = "Güvenlik Kodu Gösterilsin mi?";
 $locale['557'] = "Yeni Üyeler Admin tarafından aktif edilsin mi?";
 $locale['558'] = "Kullanıcı Sözleşmesi Kullanılsın Mı?";
 $locale['559'] = "Kullanıcı Sözleşmesi";
+
 // Photo Gallery Settings
 $locale['600'] = "Resim Galerisi Ayarları";
 $locale['601'] = "Küçük Resim Boyutu:";
@@ -111,6 +113,7 @@ $locale['605'] = "Maksimum Dosya Büyüklüğü (byte cinsinden):";
 $locale['606'] = "Küçük Resim Sıkıştırma Metodu:";
 $locale['607'] = "GD1";
 $locale['608'] = "GD2";
+
 $locale['609'] = "Satır Başına Düşen Resim Sayısı:";
 $locale['610'] = "Her Sayfada Gösterilecek Resim Sayısı:";
 $locale['611'] = "Resim Filigranı (watermark) Aktif Olsun Mu?";
