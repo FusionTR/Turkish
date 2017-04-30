@@ -1,4 +1,13 @@
 <?php
+/*-------------------------------------------------------+
+| PHP-Fusion İçerik Yönetim Sistemi
+| PHP-Fusion v9 Türkçe Dil Dosyası
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: html_buttons.php
+| Author: Ali SAKA
+| Web: http://www.fusiontr.com  
++--------------------------------------------------------*/
 /* Buttons description */
 $locale['html_000'] = 'Kalın';
 $locale['html_001'] = 'İtalik';
@@ -26,4 +35,3 @@ $locale['preview'] = "Önizle";
 $locale['word_count'] = "Karakter Sayısı";
 $locale['error_preview'] = "Önizleme Hatası";
 $locale['error_preview_text'] = "Önizleme oluşturulamadı. Lütfen sayfayı yeniden yükleyerek yeniden deneyin.";
-?>

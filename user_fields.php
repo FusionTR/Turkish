@@ -104,7 +104,7 @@ $locale['u144'] = "Yeni yönetici parolası";
 $locale['u144a'] = "Geçerli yönetici parolası";
 $locale['u145'] = "Yönetici parolasını doğrulayın.";
 $locale['u146'] = " sizin şu mevcut parolanızla aynı olamaz: ";
-$locale['u147'] = "Parolalar 8 ila 64 karakter arasında olmalıdır.<br />İzin verilen karakterler a-z, 0-9 ve @!#$%&amp;\/()=-_?+*.,:;""";
+$locale['u147'] = "Parolalar 8 ila 64 karakter arasında olmalıdır.<br />İzin verilen karakterler a-z, 0-9 ve @!#$%&amp;\/()=-_?+*.,:;";
 $locale['u148'] = "Yeni giriş parolalarınız birbiri ile uyuşmuyor.";
 $locale['u148a'] = "Yeni yönetici parolalarınız birbiri ile uyuşmuyor.";
 $locale['u149'] = "Mevcut giriş parolanız belirtilmemiş ya da geçersiz.";

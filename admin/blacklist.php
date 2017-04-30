@@ -1,46 +1,52 @@
 <?php
-// Delete blacklisted user
-$locale['400'] = "Kullanıcıyı Kara Listeden Sil";
-$locale['401'] = "Kullanıcı Kara Listeden Silindi";
-$locale['402'] = "Kara Liste Yönetimine Geri Dön";
-$locale['403'] = "Site Yönetimine Geri Dön";
-$locale['404'] = "Kara Listeye eklenecek IP veya E-Posta adresini girin.";
-$locale['405'] = "Girdiğiniz E-Posta adresi geçerli değil.";
-$locale['406'] = "Kara Liste";
-// Add/Edit Blacklist Titles
-$locale['420'] = "Kara Listeye Ekle";
-$locale['421'] = "Kara listeye eklenmiş üyeyi düzenle";
-// Add/Edit blacklist form
-$locale['440'] = "Bu siteye girisini engellemek istediğiniz kullanicinin IP adresini yada mail adresini yazarak kullanıcıyı 
+/*-------------------------------------------------------+
+| PHP-Fusion İçerik Yönetim Sistemi
+| PHP-Fusion v9 Türkçe Dil Dosyası
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: blacklist.php
+| Author: Ali SAKA
+| Web: http://www.fusiontr.com  
++--------------------------------------------------------*/
+$locale['BLS_000'] = "Kara Liste"; //406
+//Blacklist message
+$locale['BLS_010'] = "Geçersiz E-posta veya IP adresi.";
+$locale['BLS_011'] = "Kullanıcı Kara Listeye Eklendi.";
+$locale['BLS_012'] = "Kullanıcı Kara Listede Güncellendi";
+$locale['BLS_013'] = "Kullanıcı Kara Listeden Silindi"; //401
+$locale['BLS_014'] = "Bu girişi silmek istediğinizden emin misiniz?";
+$locale['BLS_015'] = "Kara Liste şu anda boş."; //465
+$locale['BLS_016'] = "Girdiğiniz E-Posta adresi geçerli değil."; //405
+
+$locale['BLS_020'] = "Kara Listedeki Üyeler"; //420
+$locale['BLS_021'] = "Kara listeye eklenmiş üyeyi düzenle"; //421
+$locale['BLS_022'] = "Kara Listeye Kullanıcı Ekle";
+$locale['BLS_023'] = "Şu anda Toplam %d Karaliste Girişlerinin %d Tanesi Gösteriliyor.";
+
+$locale['BLS_030'] = "Kara Liste Bilgisi"; //461
+$locale['BLS_031'] = "Yönetici"; //467
+$locale['BLS_032'] = "Tarih";  //468
+$locale['BLS_033'] = "Seçenekler"; //462
+$locale['BLS_034'] = "Kara Listeye Eklenecek IP Adresi: [STRONG]yada[/STRONG]"; //441
+$locale['BLS_035'] = "Kara Listeye Eklenecek E-mail Adresi"; //442
+$locale['BLS_036'] = "Kara Listeye Eklenme Sebebi"; //443
+$locale['BLS_037'] = "Kara Listeye Ekle";  //444
+$locale['BLS_038'] = "Güncelle";
+
+$locale['BLS_MS'] = "Bu siteye girişini engellemek istediğiniz kullanıcının IP adresini yada mail adresini yazarak kullanıcıyı 
 yasaklı kullanıcılar listesine ekleyebilirsiniz. İsterseniz kullanıcı siteye geldiğinde bir sebep gösterebilirsiniz.
-Lütfen unutmayın: IPv6 adresleri sitemizde tam uzunlıklarına dönüştürülmektedirler, 
+Lütfen unutmayın: IPv6 adresleri sitemizde tam uzunluklarına dönüştürülmektedirler, 
 Örneğin, <em>ABCD:1234:5:6:7:8:9:FF</em> şu şekilde gözükecektir: <em>ABCD:1234:0005:0006:0007:0008:0009:00FF</em>.
-Bu islemi yapmak için IP adresini tam olarak örn: <em>123.123.123.123</em>, ya da <em>123.123.123 , 123.123</em> gibi bir bölümünü girerek yapabilirsiniz. Karışık IP adresleri (Hem IPv6 hem IPv4 kısımları içerenler) kara listede kısmi eşleşme için kontrol edilmeyeceklerdir.<br /><br />
+Bu işlemi yapmak için IP adresini tam olarak örn: <em>123.123.123.123</em>, ya da <em>123.123.123 , 123.123</em> gibi bir bölümünü girerek yapabilirsiniz. Karışık IP adresleri (Hem IPv6 hem IPv4 kısımları içerenler) kara listede kısmi eşleşme için kontrol edilmeyeceklerdir.<br /><br />
 <br /><br />
 Aynı şekilde e-posta adresi kullanarak da kullanıcıyı yasaklılar listesine dahil edebilirsiniz.
 örn: <em>isim@adres.com</em>, ya da tüm domain ismini de yasaklayabilirsiniz. örn: <em>adres.com</em>
 
-% - matches any string.<br /><br />
+% - Herhangi bir dize ile eşleşir.<br /><br />
 
-%.%.%.%@domain.tld bans any address that contains at least 3 dots.<br />
-%+%@domain.tld bans any address that contains at least one plus sign.<br />
-%@domain.tld bans any address from domain.tld<br />
-%.domain.tld bans all subdomains of domain.tld<br />
-%payday% bans any address that contains the word \"payday\" which was very often on sites.<br />
-domain.tld is an alias of %@domain.tld to make it compatible with rules defined in v7.<br />";
-
-$locale['441'] = "Kara Listeye Eklenecek IP Adresi: <strong>ya da</strong>";
-$locale['442'] = "Kara Listeye Eklenecek E-mail Adresi:";
-$locale['443'] = "Kara Listeye Eklenme Sebebi";
-$locale['444'] = "Kara Listeye Ekle";
-// Current blacklisted users
-$locale['460'] = "Kara Listedeki Üyeler";
-$locale['461'] = "Kara Liste Bilgisi";
-$locale['462'] = "Seçenekler";
-$locale['463'] = "Düzenle";
-$locale['464'] = "Sil";
-$locale['465'] = "Kara Liste şu anda boş.";
-$locale['466'] = "Yok";
-$locale['467'] = "Yönetici";
-$locale['468'] = "Tarih";
-?>
+%.%.%.%@domain.tld En az 3 nokta içeren herhangi bir adresi yasaklar.<br />
+%+%@domain.tld En az bir artı işareti içeren herhangi bir adresi yasaklar.<br />
+%@domain.tld Domain.tld'den herhangi bir adresi yasaklar.<br />
+%.domain.tld Domain.tld'nin tüm alt alanlarını yasaklar<br />
+%payday% Sitelerde sıkça bulunan \"payday\" kelimesini içeren herhangi bir adresi yasaklar.<br />
+domain.tld V7'de tanımlanan kurallarla uyumlu hale getirmek için %@domain.tld'nin bir takma adıdır.<br />"; //440

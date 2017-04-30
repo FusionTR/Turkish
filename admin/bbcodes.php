@@ -1,4 +1,13 @@
 <?php
+/*-------------------------------------------------------+
+| PHP-Fusion İçerik Yönetim Sistemi
+| PHP-Fusion v9 Türkçe Dil Dosyası
+| https://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Filename: bbcodes.php
+| Author: Ali SAKA
+| Web: http://www.fusiontr.com  
++--------------------------------------------------------*/ 
 $locale['400'] = "BB Kod Yönetimi";
 $locale['401'] = "BB Kodlarını Test Et";
 // Enabled BB Codes
@@ -22,4 +31,3 @@ $locale['417'] = "BB Kodları Çıktısı Testi";
 $locale['418'] = "Bu testte yüz ifadelerini gizle";
 $locale['418a'] = "Test Mesajı";
 $locale['418b'] = "Lütfen BB kodları için bir mesaj girin.";
-?>
