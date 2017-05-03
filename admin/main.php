@@ -17,7 +17,7 @@ $locale['ac03'] = "Sistem Yönetimi";
 $locale['ac04'] = "Seçenekler";
 $locale['ac05'] = "Modüller";
 $locale['ac10'] = "Admin Kontrol Paneli";
-$locale['202'] = "Kullanıcı Profili Yapılandırma";
+$locale['202'] = "Kullanıcı Alanları Yapılandırma";
 
 // Pre-defined sections
 $locale['AC'] = "Makale Kategorileri";
